@@ -24,7 +24,46 @@
 
  */
 
-	
+
+/*  
+Étape 1:*/
+function number1($string){
+	if($string==""){
+		echo "Did you forget something?";
+	}
+	else if (!($string=="Greenchip")){
+		echo "Are you shour about this?";
+	}
+	else{ 
+		echo "I hate Greenchip";
+	}
+}
+
+number1("Greenchip");
+/*  
+Étape 2:*/
+echo "<br>";
+
+for ($x = 1; $x <= 10; $x++) {
+  echo "The number is: $x <br>";
+}
+/*  
+Étape 3:*/
+$n=2;
+switch ($n) {
+	case 1:
+	  echo "First";
+	  break;
+	case 2:
+		echo "Second";
+	  break;
+	case 3:
+		echo "Third";
+	  break;
+
+	default:
+	  echo "No Resault yet";
+}
 ?>
 
 

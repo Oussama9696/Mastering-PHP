@@ -27,6 +27,13 @@
 
 		   */
 
+		   
+
+		   /*
+			Function displays a phrase
+		   */
+		  echo " <h1> Hello World </h1> "
+
 		?>
 
 	

@@ -23,6 +23,17 @@
 
  */
 
+/*  
+Étape 1:*/
+function cul( $x , $y ){
+	$result= $x + $y;
+	echo $result;
+}
+
+cul(3,6);
+/*  
+Étape 2:*/
+
 	
 ?>
 

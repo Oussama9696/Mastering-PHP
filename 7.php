@@ -27,7 +27,19 @@
 
 	Étape 4 - Connectez-vous à la base de données et lisez les données 
 	*/
-	
+	$briefBase = new mysqli('localhost', "root", '', 'briefbase');
+
+	$res = $briefBase->query("SELECT * FROM brieftable");
+
+	$data = $res->fetch_array();
+
+	$name = $data['name'];
+	$prename = $data['prename'];
+	$age = $data['age'];
+
+	echo nl2br("$name \r\n");
+	echo nl2br("$prename \r\n");
+	echo nl2br("$age \r\n");
 	?>
 
 

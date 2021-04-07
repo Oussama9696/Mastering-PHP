@@ -25,14 +25,26 @@
 		Étape 3: Créez 2 tableaux avec les mêmes valeurs, l'un régulier et l'autre associatif
 
 		Étape 4: Créez une constante et définissez-la sur la valeur de PHP. et utilisez un écho pour l'afficher
-
-
-			
-
 			 */
 
-		
+			 
 
+			/* 
+		Étape 1*/
+			 $number1 = 10;
+			 $number2 = 20;
+			 /* 
+		Étape 2*/
+			 echo $number1 + $number2 ;
+			 echo "<br>" ;
+			 /* 
+		Étape 3*/
+			$regular = array("Oussama","male","24");
+			$associative = array("name"=>"Oussama","gender"=>"male","age"=>"24");
+			/* 
+		Étape 4*/
+		define("constant","PHP");
+		echo constant;
 
 		?>
 

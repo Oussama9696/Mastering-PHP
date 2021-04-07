@@ -23,6 +23,25 @@
 	Étape 3: Utilisez une fonction Array prédéfinie ici et faites-en écho 
 
  */
+/*max of two or more numbers*/ 
+
+echo max(2,5,7);
+
+echo nl2br("\r\n");
+
+/*make a string upercase*/ 
+echo strtoupper("greenchip");
+
+echo nl2br("\r\n");
+
+$array = ["ouussama", "HAMMOURI"];
+
+/*add new variables to an array*/ 
+array_push($array, "24");
+
+echo $array[2];
+
+?>
 
 	
 ?>
